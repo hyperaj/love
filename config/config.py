@@ -18,17 +18,18 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "13399054"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH", "585801d590dac4c79aeaa7bcda495e62")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7932576136:AAF_etc2aCiUmmxiDE9fml_81lv1Q7UT51c")
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monivps5:monivps5@cluster0.kmbq8we.mongodb.net/?retryWrites=true&w=majority")
+
 
 
 CLEANMODE_DELETE_MINS = int(
@@ -53,7 +54,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/vishalpandeynkp1/NOBITA-EXTRA-PLUGIN",
+    "https://github.com/crazyworld-izzy/Extra-Plugin",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -70,12 +71,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002223516578"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002066328009"))
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6972508083").split())
+    map(int, getenv("OWNER_ID", "7078122796").split())
 )  # Input type must be interger
 
 
@@ -114,14 +115,14 @@ AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Nobita_All_Bot"
+    "SUPPORT_CHANNEL", "https://t.me/tamil_chat_unique_galaxy"
 )  # Example:- https://t.me/VIP_CREATORS
 SUPPORT_GROUP = getenv(
-    "BOYS_STATUS_GROUP", "https://t.me/NOBITA_SUPPORT"
+    "BOYS_STATUS_GROUP", "https://t.me/izzy_tamil_junction"
 )  # Example:- https://t.me/TG_FRIENDSS
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/Nobita_Support"
+    "SUPPORT_GROUP", "https://t.me/izzy_tamil_junction"
 )  # Example:- https://t.me/TG_FRIENDSS
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
@@ -184,7 +185,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @VIPStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQDMdA4AmV7j65JftzkmZy20xDnqhiOZ3dJr8MMTXYZKFGFDmPiGHaOWXnJulU-VK_BUZPIgM7zDeROohC2J8RsV_KQV2clU7ROxcn-JdkBw2ljZIMedgXP0nOaDrEgdfr0yZC4KErdl6lZ2DpOgwfEOUS3PFztv7YURKh-DmKvWYWSpcBYxDkHCvr23L0W46R7r4dLTNu2Z15oA5hFjqWxnLzky3ZtJxLz365mW2OUSJ9MQ2dfVTuIH_4EF8P-KQETq3fY77tumk8C8DoMC2fG7dR1wGPrxyS331FnNN126ff1XcVmu4WYM-PDebcsnjJMfLnL1CO4DtNkgmFoznItoIsWU3AAAAAG5Bf-FAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -217,27 +218,27 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://envs.sh/WjQ.jpg",
+    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
